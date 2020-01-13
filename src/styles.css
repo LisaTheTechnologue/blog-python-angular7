@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global
+Schema:
+#ffffff white
+#eeeeee grey
+#ff9681
+#8f8d8e
+#c8b7a7 highlighted
+*/
+
+body {
+    font: 15px "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/*Customize */
+
+.material-icons {
+    font-size: 22px;
+}
+
+.btn {
+    padding: 3px;
+}
+
+
+/* table hover */
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #c8b7a7;
+}
+
+.highlighted {
+    background-color: #8f8d8e;
+}
